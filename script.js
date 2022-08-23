@@ -28,5 +28,5 @@ btnTranslate.addEventListener("click", () => {
         .then(data => {
             toText.value = data.responseData.translatedText
         });
-        
+
 })

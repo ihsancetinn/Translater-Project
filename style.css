@@ -1,6 +1,17 @@
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nerko+One&family=Open+Sans:wght@300&family=Poppins&family=Roboto:ital,wght@0,300;0,400;1,100&family=Supermercado+One&display=swap');
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-color: #1897Bf;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    
+}
