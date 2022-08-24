@@ -34,7 +34,7 @@ body {
     border-top:1px solid #7F8487;
 
 }
-.controls {
+.controls, .controls li, .icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,4 +75,16 @@ button:hover{
     background-color: #fff;
     color:black;
     
+}
+i {
+    width: 40px;
+    color:#7F8487;
+    padding-left: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+}
+.icons {
+    width: 35%;
 }
